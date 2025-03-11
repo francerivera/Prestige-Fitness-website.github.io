@@ -35,7 +35,7 @@
             $('.register-btn').on('click', function () {
                 showRegisterForm();
             });
-
+            
             // Spinner
             var spinner = function () {
                 setTimeout(function () {
@@ -61,8 +61,8 @@
                 loop: true,
                 nav: true,
                 navText: [
+                    '<i class="bi bi-arrow-right"></i>',
                     '<i class="bi bi-arrow-left"></i>',
-                    '<i class="bi bi-arrow-right"></i>'
                 ],
             });
 
